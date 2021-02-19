@@ -11,7 +11,7 @@ float getLargestAbsolute(float arr[], int n)
     float maxVal = abs(arr[0]);
     for (int i = 1; i < n; i++)
     {
-        if (abs(arr[i]) > maxVal)
+        if (abs(arr[i]) > abs(maxVal))
         {
             maxVal = arr[i];
         }
