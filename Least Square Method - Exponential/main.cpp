@@ -9,8 +9,20 @@ int main()
   float dataX[MAX_SIZE], dataY[MAX_SIZE], modifiedY[MAX_SIZE], varA, varB, modifiedA, del, delOne, delTwo;
   float sumX = 0, sumModifiedY = 0, sumXSqr = 0, sumXY = 0;
 
-  cout << "Enter no. of data: ";
-  cin >> count;
+  while (true)
+  {
+    cout << "Enter no. of data: ";
+    cin >> count;
+
+    if (count <= MAX_SIZE)
+    {
+      break;
+    }
+    else
+    {
+      cout << "Data count can't exceed 10. ";
+    }
+  }
 
   for (int i = 0; i < count; i++)
   {
