@@ -1,1 +1,1 @@
-## This repo contains all the NM-Algorithms w/ their description.
+## NM-Algorithms w/ their description.
