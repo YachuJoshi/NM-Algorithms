@@ -11,7 +11,7 @@ float function(float x, float y)
 
 int main()
 {
-  float initialX, initialY, finalX, finalY, xValue, yValue, stepSize, n, k, k1, k2, k3, k4;
+  float initialX, initialY, finalX, xValue, yValue, stepSize, n, k, k1, k2, k3, k4;
   cout << "Enter inital x, y: ";
   cin >> initialX >> initialY;
   cout << "Enter step size: ";
